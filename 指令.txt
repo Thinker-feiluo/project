@@ -13,7 +13,9 @@
 13.  git reflog			打印所有的历史操作 在这里可以看到标识符(前7个)
 14.  git reset --hard 标识符	可以前进到哪一个提交的版本	
 15.  git reset --soft HEAD^ 	可以把历史区的记录返回到暂存区
-16.    git revert HEAD		回退一个版本,和reset的区别为(会生成一个新的记录,并且不会对其他提交的commit产生影响)
+16.  git revert HEAD		回退一个版本,和reset的区别为(会生成一个新的记录,并且不会对其他提交的commit产生影响)
 17.  git branch			查看所有分支
-18.    git branch 分支名		创建新的分支
+18.  git branch 分支名		创建新的分支
 19.  git checkout 分支名		切换分支
+20.  git  merge 分支名		将分支合并到master去
+git 
