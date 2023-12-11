@@ -17,3 +17,4 @@
 17.  git branch			查看所有分支
 18.  git branch 分支名		创建新的分支
 19.  git checkout 分支名		切换分支
+20.  git  merge 分支名		将分支合并到master去
