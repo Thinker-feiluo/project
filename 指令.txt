@@ -27,5 +27,6 @@
 27.  git clone git地址			              将github远程仓库上的"主分支"克隆到本地来(只能克隆主分支)
 28.  git push 代替地址变量 :分支名	            将一个空的分支名代替在github上的分支,从而达到删除的目的
 29.  git init 				                  初始化git
+30.  在.gitignore中配置文件不会被提交到git上去
 
  
