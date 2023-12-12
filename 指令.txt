@@ -18,13 +18,13 @@
 18.  git branch 分支名		  	            创建新的分支(创建分支的好处:可以在分支上写功能并且提交到该分支上去,如果写完了可以合并到主分支去,提交到主分支的代码不满意,可以转到主分支上修改,在提交合并即可)
 19.  git checkout 分支名		  	        切换分支
 20.  git merge 分支名		  	            将分支合并到master去(合并完成需要把合并之前没有的进行提交)
-21.  git branch -d 分支名	  	            删除分支
-22.  git remote add 代替地址变量 git地址	将本地历史区绑定到github中
-23.  git push 代替地址变量 分支		        将本地历史区的分支推送到github中
-24.  git branch -a 			                查看所有的分支,包括push在github上的
-25.  git push -u 代替地址变量 分支	         将本地历史区的分支当成默认提交,之后可以直接使用git push,git pull
-26.  git pull 代替地址变量 分支		        将github中的分支拉取到本地来,并且和本地的分支进行合并
-27.  git clone git地址			            将github远程仓库上的"主分支"克隆到本地来(只能克隆主分支)
+21.  git branch -d 分支名	  	              删除分支
+22.  git remote add 代替地址变量 git地址	  将本地历史区绑定到github中
+23.  git push 代替地址变量 分支		          将本地历史区的分支推送到github中
+24.  git branch -a 			                 查看所有的分支,包括push在github上的
+25.  git push -u 代替地址变量 分支	           将本地历史区的分支当成默认提交,之后可以直接使用git push,git pull
+26.  git pull 代替地址变量 分支		           将github中的分支拉取到本地来,并且和本地的分支进行合并
+27.  git clone git地址			              将github远程仓库上的"主分支"克隆到本地来(只能克隆主分支)
 28.  git push 代替地址变量 :分支名	            将一个空的分支名代替在github上的分支,从而达到删除的目的
 29.  git init 				                  初始化git
 
